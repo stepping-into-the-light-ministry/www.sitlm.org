@@ -3472,10 +3472,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)), url("images/overlay.png");
-			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)), url("images/overlay.png");
-			background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)), url("images/overlay.png");
-			background-image: linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.3)), url("images/overlay.png");
+			background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2)), url("images/overlay.png");
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2)), url("images/overlay.png");
+			background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2)), url("images/overlay.png");
+			background-image: linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2)), url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
