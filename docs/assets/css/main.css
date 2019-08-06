@@ -3450,10 +3450,20 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
+	.bannerBody {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/Banner.png");
+		background-image: url("../../images/Banner.jpg");
+		background-position: center center;
+		background-size: cover;
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		min-height: 100vh;
+		position: relative;
+		text-align: center;
+		z-index: 21;
+	}
+	#banner {
+		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3472,10 +3482,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4)), url("images/overlay.png");
-			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4)), url("images/overlay.png");
-			background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4)), url("images/overlay.png");
-			background-image: linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4)), url("images/overlay.png");
+			background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");
+			background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");
+			background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");
+			background-image: linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;
